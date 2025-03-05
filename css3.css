@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('foto/budmulia.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(0.7);
+  font-family: Arial, sans-serif;
+}
+
+.halaman {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navigasi {
+  background-color: #2c3e50;
+  padding: 10px 0;
+}
+
+.navigasi nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 15px;
+}
+
+.navigasi nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 100px;
+  transition: background-color 0.3s;
+}
+
+.navigasi nav ul li a:hover {
+  background-color: #34495e;
+}
+
+.konten {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+table {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+td, th {
+  text-align: center;
+  vertical-align: middle;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.tombol-utama {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 24px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.tombol-utama:hover {
+  background-color: #2980b9;
+}
+
+.jadwal-pelajaran h2 {
+  font-size: 36px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  margin-bottom: 20px;
+}

@@ -1,0 +1,104 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('foto/budmulia.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.halaman {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navigasi {
+  width: 100%;
+  background-color: #2c3e50;
+  padding: 10px 0;
+}
+
+.navigasi nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.navigasi nav ul li {
+  margin: 0 15px;
+}
+
+.navigasi nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  display: block;
+  border-radius: 100px;
+  transition: background-color 0.3s;
+}
+
+.navigasi nav ul li a:hover {
+  background-color: #34495e;
+}
+
+main.konten {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.gambar {
+  text-align: center;
+}
+
+.gambar img {
+  width: 150px;
+  height: 190px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.teks-gambar {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.teks-gambar h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.teks-gambar h2 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.tombol-aksi {
+  background-color: #3498db;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.tombol-aksi:hover {
+  background-color: #2980b9;
+}
